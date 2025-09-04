@@ -204,8 +204,17 @@ All colors MUST be HSL.
     transition: var(--transition-smooth);
   }
 
-  .hover-lift:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-medium);
-  }
+/* Hide scrollbar for portfolio slider */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Touch scrolling for mobile */
+.scrollbar-hide {
+  -webkit-overflow-scrolling: touch;
 }
