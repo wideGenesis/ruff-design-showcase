@@ -27,13 +27,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Text Content */}
-          <div className="text-center lg:text-left order-2 lg:order-1 animate-fade-in">
+          <div className="text-center order-2 lg:order-1 animate-fade-in">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               I help brands look{' '}
               <span className="text-gradient">unforgettable</span>
             </h1>
             
-            <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-lg mx-auto leading-relaxed">
               Creative designer with 5+ years of experience in digital branding and UI/UX. 
               I blend aesthetics with strategy to build memorable visual identities.
             </p>
