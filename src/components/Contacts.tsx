@@ -28,22 +28,6 @@ const Contacts = () => {
             Have a project in mind? Let's create something amazing together.
           </p>
 
-          {/* Main CTA Button */}
-          <Button
-            onClick={handleTelegramClick}
-            size="lg"
-            className="
-              bg-white text-primary hover:bg-white/90
-              px-8 py-4 text-lg font-semibold rounded-full
-              shadow-glow hover:shadow-medium
-              transition-all duration-300 hover:scale-105
-              min-h-[48px] min-w-[200px] mb-12
-            "
-          >
-            <MessageCircle className="mr-2 h-5 w-5" />
-            Get in Touch
-          </Button>
-
           {/* Contact Options */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-2xl mx-auto">
             {/* Telegram */}

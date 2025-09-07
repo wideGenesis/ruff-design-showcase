@@ -10,21 +10,21 @@ const portfolioItems = [
     title: 'Brand Identity Design',
     category: 'Branding',
     image: 'https://images.unsplash.com/photo-1634942537034-2531766767d1?w=400&h=300&fit=crop&crop=center',
-    link: 'https://behance.net/project1'
+    link: 'https://pinterest.com/pin/1146025436438358714/'
   },
   {
     id: 2,
     title: 'Motion Graphics Reel',
     category: 'Animation',
     image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=300&fit=crop&crop=center',
-    link: 'https://behance.net/project2'
+    link: 'https://pinterest.com/pin/1146025436438803167/'
   },
   {
     id: 3,
     title: 'UI/UX Mobile App',
     category: 'Digital Design',
     image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop&crop=center',
-    link: 'https://behance.net/project3'
+    link: 'https://https://www.pinterest.com/pin/1146025436438296287/'
   },
   {
     id: 4,
